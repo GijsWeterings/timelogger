@@ -1,0 +1,22 @@
+@import '~style/helpers';
+
+.task {
+	&:extend(.card);
+	position: relative;
+}
+
+@headerSize: 16pt;
+
+.taskName {
+	display: inline-block;
+	font-size: @headerSize;
+	vertical-align: middle;
+}
+
+.profileImg {
+	height: @headerSize * 1.5;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+	padding-right: 5px;
+}
