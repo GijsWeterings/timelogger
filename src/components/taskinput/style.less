@@ -1,0 +1,33 @@
+@import '~style/helpers';
+.taskinput {
+    &:extend(.card);
+    position: relative;
+    margin-bottom: 5px;
+    padding: 0;
+    height: 60px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    * {
+        height: 100%;
+    }
+    .inputField {
+        flex: 1;
+        padding: 0 10px 0 30px;
+        border: 0;
+        height: 100%;
+        font-size: 16pt;
+        vertical-align: middle;
+        width: 100%;
+        align-self: flex-start;
+    }
+}
+
+.timerr {
+    vertical-align: middle;
+    background: red;
+}
+
+svg {
+    vertical-align: middle;
+}

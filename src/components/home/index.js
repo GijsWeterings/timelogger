@@ -3,6 +3,7 @@ import style from './style';
 import * as firebase from 'firebase';
 
 import Task from '../task';
+import TaskInput from '../taskinput';
 
 export default class Home extends Component {
 
@@ -25,6 +26,7 @@ export default class Home extends Component {
 				<h1>{this.state.speed}</h1>
 				<p>This is the Home component.</p>
 				<div class={style.centeredColumn}>
+					<TaskInput />
 					<Task />
 				</div>
 			</div>

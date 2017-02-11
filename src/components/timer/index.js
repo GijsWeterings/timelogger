@@ -42,7 +42,7 @@ export default class Timer extends Component {
 
 	render() {
 		return (
-			<span class={style.timer}>{Timer.formatTime(this.state.seconds)}</span>
+			<div class={style.timer}>{Timer.formatTime(this.state.seconds)}</div>
 		);
 	}
 }
